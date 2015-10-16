@@ -9,10 +9,9 @@ LINE Normal 16 44 16 64
 LINE Normal 32 39 32 44
 WINDOW 0 24 0 Left 2
 WINDOW 3 24 64 Left 2
-SYMATTR Value BZX84C3V0LT1
+SYMATTR Value <enter model name>
 SYMATTR Prefix X
 SYMATTR Description Zener Diode
-SYMATTR ModelFile BZX84C3V0LT1.SP
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
