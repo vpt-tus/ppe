@@ -5,7 +5,7 @@
 * Commercial Use or
 * Resale Restricted
 * Date: 2015/09/01
-.MODEL DCDZV10B D
+.MODEL CDZV10B D
 + IS=2.1786E-16
 + N=1.0288
 + RS=.29371
