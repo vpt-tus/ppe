@@ -5,7 +5,7 @@
 * Commercial Use or
 * Resale Restricted
 * Date: 2015/09/7
-.MODEL DEDZV33B D
+.MODEL EDZV33B D
 + IS=4.3739E-15
 + N=1.1094
 + RS=.26228
