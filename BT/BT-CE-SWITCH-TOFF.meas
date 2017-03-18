@@ -1,0 +1,2 @@
+.measure toff TRIG v(a) VAL=4 FALL=1 TARG V(c) VAL=4V RISE=1
+.measure ton TRIG v(a) VAL=1 RISE=1 TARG V(c) VAL=4V FALL=1
