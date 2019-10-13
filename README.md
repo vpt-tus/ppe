@@ -1,5 +1,6 @@
 Схеми за [проектите по "Полупроводникови Елементи"](https://lark.tu-sofia.bg/)
 
-Технически Университет - София
+Упътвания за проектите са дадени в Google Drive https://drive.google.com/drive/folders/0BxEAFQHdPMEFUkFvR1BTWEE0SGM?usp=sharing
 
+Технически Университет - София
 ФЕТТ, кат. Електронна Техника
