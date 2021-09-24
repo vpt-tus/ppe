@@ -1,0 +1,18 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -32 16 32 16
+LINE Normal 0 -16 -32 16
+LINE Normal 32 16 0 -16
+LINE Normal 0 -64 0 -16
+LINE Normal 0 64 0 16
+LINE Normal 32 -16 -32 -16
+WINDOW 3 150 10 Center 2
+WINDOW 0 56 -12 Left 2
+SYMATTR Value FFSB0465A_2P
+SYMATTR Prefix X
+PIN 0 64 NONE 8
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 0 -64 NONE 8
+PINATTR PinName C
+PINATTR SpiceOrder 2

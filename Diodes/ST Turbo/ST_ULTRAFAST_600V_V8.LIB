@@ -1,0 +1,2100 @@
+*
+* File     : ultrafast_600v_v8.LIB
+* Revision : 8.0
+* Date     : DEC 2020
+**********************************************************************
+*Please Read Carefully:
+*Information in this document is provided solely in connection with ST products.
+*STMicroelectronics NV and its subsidiaries (“ST”) reserve the right to make :
+*changes, corrections, modifications or improvements, to this document,
+*and the products and services described herein at any time, without notice.
+*All ST products are sold pursuant to ST’s terms and conditions of sale.
+*Purchasers are solely responsible for the choice, selection and use of the ST products, and services described herein,
+*and ST assumes no liability whatsoever relating to the choice, selection or use of the ST products and services described herein.
+*No license, express or implied, by estoppel or otherwise, to any intellectual property rights is granted under this document.
+*If any part of this document refers to any third party products or
+*services it shall not be deemed a license grant by ST for the use of such third party products or
+*services, or any intellectual property contained therein or
+*considered as a warranty covering the use in any manner whatsoever of such third party products or
+*services or any intellectual property contained therein.
+*UNLESS OTHERWISE SET FORTH IN ST’S TERMS AND CONDITIONS OF SALE ST DISCLAIMS ANY EXPRESS OR IMPLIED
+*WARRANTY WITH RESPECT TO THE USE AND/OR SALE OF ST PRODUCTS INCLUDING WITHOUT LIMITATION IMPLIED
+*WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE (AND THEIR EQUIVALENTS UNDER THE LAWS
+*OF ANY JURISDICTION), OR INFRINGEMENT OF ANY PATENT, COPYRIGHT OR OTHER INTELLECTUAL PROPERTY RIGHT.
+*UNLESS EXPRESSLY APPROVED IN WRITING BY AN AUTHORIZED ST REPRESENTATIVE, ST PRODUCTS ARE NOT
+*RECOMMENDED, AUTHORIZED OR WARRANTED FOR USE IN MILITARY, AIR CRAFT, SPACE, LIFE SAVING, OR LIFE SUSTAINING
+*APPLICATIONS, NOR IN PRODUCTS OR SYSTEMS WHERE FAILURE OR MALFUNCTION MAY RESULT IN PERSONAL INJURY,
+*DEATH, OR SEVERE PROPERTY OR ENVIRONMENTAL DAMAGE. ST PRODUCTS WHICH ARE NOT SPECIFIED AS "AUTOMOTIVE
+*GRADE" MAY ONLY BE USED IN AUTOMOTIVE APPLICATIONS AT USER’S OWN RISK.
+*Resale of ST products with provisions different from the statements and/or technical features
+*set forth in this document shall immediately void any warranty granted by ST for the ST product or
+*service described herein and shall not create or extend in any manner whatsoever, any liability of ST.
+*ST and the ST logo are trademarks or registered trademarks of ST in various countries.
+*Information in this document supersedes and replaces all information previously supplied.
+*The ST logo is a registered trademark of STMicroelectronics.
+*All other names are the property of their respective owners.
+*
+*© 2006 STMicroelectronics - All rights reserved
+*
+*STMicroelectronics group of companies
+*Australia - Belgium - Brazil - Canada - China - Czech Republic - Finland - France
+*Germany - Hong Kong - India - Israel - Italy - Japan - Malaysia - Malta - Morocco
+*Singapore - Spain - Sweden - Switzerland - United Kingdom - United States of America
+*www.st.com
+*
+*******************************************************************
+* TURBO 2 ULTRASOFT HIGH VOLTAGE RECTIFIER 600V             L60
+*******************************************************************
+* TURBO 2 ULTRAFAST HIGH VOLTAGE RECTIFIER 600V             L77
+*******************************************************************
+* TANDEM 600V HYPERFAST BOOST DIODE                         L1835
+*******************************************************************
+* 600V&650V HIGH VOLTAGE RECTIFIER FOR BC2 TOPOLOGY         L2012
+*******************************************************************
+
+
+
+
+
+*******************************************************************
+* TURBO 2 ULTRASOFT HIGH VOLTAGE RECTIFIER 600V
+*******************************************************************
+
+*******************************************************************
+* Model name       : STTH31AC06SWL
+* Description      : Turbo2 Ultrasoft High Voltage Rectifier
+* Package type     : TO247LL
+*******************************************************************
+.MODEL STTH31AC06SWL D
++ IS=47.270E-9 N=1.6749 RS=12.614E-3 IKF=69.712E-3 CJO=328.97E-12 M=.48775
++ VJ=.6136 ISR=334.73E-9 NR=2.7158 TT=48.0000E-9 XTI=3 EG=1.11 FC=0.5
+*$
+
+
+
+
+*******************************************************************
+* TURBO 2 ULTRAFAST HIGH VOLTAGE RECTIFIER 600V
+******************************************************************
+
+*******************************************************************
+* Model name       : STTH1L06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41
+*******************************************************************
+.MODEL STTH1L06 D
++ IS=1.6375E-6 N=3.0655 RS=43.730E-3 IKF=1.0000E3 CJO=35.096E-12 M=.40404
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1L06A
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMA
+*******************************************************************
+.MODEL STTH1L06A D
++ IS=1.6375E-6 N=3.0655 RS=43.730E-3 IKF=1.0000E3 CJO=35.096E-12 M=.40404
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1L06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41 in tape&reel
+*******************************************************************
+.MODEL STTH1L06RL D
++ IS=1.6375E-6 N=3.0655 RS=43.730E-3 IKF=1.0000E3 CJO=35.096E-12 M=.40404
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1L06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH1L06U D
++ IS=1.6375E-6 N=3.0655 RS=43.730E-3 IKF=1.0000E3 CJO=35.096E-12 M=.40404
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1R06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41
+*******************************************************************
+.MODEL STTH1R06 D
++ IS=5.4167E-6 N=3.5687 RS=47.973E-3 IKF=.13079 CJO=30.067E-12 M=.36392
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.3000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1R06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH1R06U D
++ IS=5.4167E-6 N=3.5687 RS=47.973E-3 IKF=.13079 CJO=30.067E-12 M=.36392
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.3000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1R06A
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMA
+*******************************************************************
+.MODEL STTH1R06A D
++ IS=5.4167E-6 N=3.5687 RS=47.973E-3 IKF=.13079 CJO=30.067E-12 M=.36392
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.3000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1R06AF
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMA
+*******************************************************************
+.MODEL STTH1R06AF D
++ IS=641.04E-9 N=2.6014 RS=.13255 IKF=9.4666E-3 CJO=18.060E-12 M=.29626
++ VJ=.3905 ISR=100.00E-12 FC=0.5 TT=10.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH1R06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41 in tape&reel
+*******************************************************************
+.MODEL STTH1R06RL D
++ IS=5.4167E-6 N=3.5687 RS=47.973E-3 IKF=.13079 CJO=30.067E-12 M=.36392
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.3000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2L06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41
+*******************************************************************
+.MODEL STTH2L06 D
++ IS=33.897E-9 N=1.8535 RS=36.488E-3 IKF=.10017 CJO=45.500E-12 M=.4342
++ VJ=.42942 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.6000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2L06A
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMA
+*******************************************************************
+.MODEL STTH2L06A D
++ IS=33.897E-9 N=1.8535 RS=36.488E-3 IKF=.10017 CJO=45.500E-12 M=.4342
++ VJ=.42942 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.6000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2L06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH2L06U D
++ IS=33.897E-9 N=1.8535 RS=36.488E-3 IKF=.10017 CJO=45.500E-12 M=.4342
++ VJ=.42942 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.6000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2L06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41  in tape&reel
+*******************************************************************
+.MODEL STTH2L06RL D
++ IS=33.897E-9 N=1.8535 RS=36.488E-3 IKF=.10017 CJO=45.500E-12 M=.4342
++ VJ=.42942 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.6000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2R06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41  in tape&reel
+*******************************************************************
+.MODEL STTH2R06RL D
++ IS=2.8126E-6 N=2.9656 RS=34.161E-3 IKF=99.815E-3 CJO=34.277E-12 M=.39937
++ VJ=.53751 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2R06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO41
+*******************************************************************
+.MODEL STTH2R06 D
++ IS=2.8126E-6 N=2.9656 RS=34.161E-3 IKF=99.815E-3 CJO=34.277E-12 M=.39937
++ VJ=.53751 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2R06A
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMA
+*******************************************************************
+.MODEL STTH2R06A D
++ IS=2.8126E-6 N=2.9656 RS=34.161E-3 IKF=99.815E-3 CJO=34.277E-12 M=.39937
++ VJ=.53751 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13E-9
+*$
+
+*******************************************************************
+* Model name       : STTH2R06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH2R06U D
++ IS=2.8126E-6 N=2.9656 RS=34.161E-3 IKF=99.815E-3 CJO=34.277E-12 M=.39937
++ VJ=.53751 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD
+*******************************************************************
+.MODEL STTH3L06 D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH3L06U D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06S
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMC
+*******************************************************************
+.MODEL STTH3L06S D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06B
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK
+*******************************************************************
+.MODEL STTH3L06B D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD   in tape&reel
+*******************************************************************
+.MODEL STTH3L06RL D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3L06B-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK  in tape&reel
+*******************************************************************
+.MODEL STTH3L06B-TR D
++ IS=19.900E-9 N=1.7149 RS=15.381E-3 IKF=69.291E-3 CJO=93.726E-12 M=.44006
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3R06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD
+*******************************************************************
+.MODEL STTH3R06 D
++ IS=8.5465E-6 N=3.0516 RS=29.400E-3 IKF=.13432 CJO=74.985E-12 M=.43409
++ VJ=.68625 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=14.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3R06U
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH3R06U D
++ IS=8.5465E-6 N=3.0516 RS=29.400E-3 IKF=.13432 CJO=74.985E-12 M=.43409
++ VJ=.68625 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=14.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3R06S
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SMC
+*******************************************************************
+.MODEL STTH3R06S D
++ IS=8.5465E-6 N=3.0516 RS=29.400E-3 IKF=.13432 CJO=74.985E-12 M=.43409
++ VJ=.68625 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=14.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3R06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD   in tape&reel
+*******************************************************************
+.MODEL STTH3R06RL D
++ IS=8.5465E-6 N=3.0516 RS=29.400E-3 IKF=.13432 CJO=74.985E-12 M=.43409
++ VJ=.68625 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=14.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH4L06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD
+*******************************************************************
+.MODEL STTH4L06 D
++ IS=8.3175E-9 N=1.5543 RS=30.078E-3 IKF=22.635E-3 CJO=77.910E-12 M=.46328
++ VJ=.73545 ISR=28.779E-9 NR=2.0960 FC=0.5 TT=38.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH4L06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD Tape and reel
+*******************************************************************
+.MODEL STTH4L06RL D
++ IS=8.3175E-9 N=1.5543 RS=30.078E-3 IKF=22.635E-3 CJO=77.910E-12 M=.46328
++ VJ=.73545 ISR=28.779E-9 NR=2.0960 FC=0.5 TT=38.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH4L06Q
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-15
+*******************************************************************
+.MODEL STTH4L06Q D
++ IS=8.3175E-9 N=1.5543 RS=30.078E-3 IKF=22.635E-3 CJO=77.910E-12 M=.46328
++ VJ=.73545 ISR=28.779E-9 NR=2.0960 FC=0.5 TT=38.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH4L06QRL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-15 Tape and reel
+*******************************************************************
+.MODEL STTH4L06QRL D
++ IS=8.3175E-9 N=1.5543 RS=30.078E-3 IKF=22.635E-3 CJO=77.910E-12 M=.46328
++ VJ=.73545 ISR=28.779E-9 NR=2.0960 FC=0.5 TT=38.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH4R06DEE
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : POWERFLAT
+*******************************************************************
+.MODEL STTH4R06DEE D
++ IS=765.19E-9 N=2.4249 RS=17.544E-3 IKF=73.622E-3 CJO=76.875E-12 M=.39481
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=27.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH5L06
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD in ammopack
+*******************************************************************
+.MODEL STTH5L06 D
++ IS=494.98E-9 N=2.2603 RS=14.292E-3 IKF=.30782 CJO=127.22E-12 M=.42266
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=24.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5L06B
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK
+*******************************************************************
+.MODEL STTH5L06B D
++ IS=494.98E-9 N=2.2603 RS=14.292E-3 IKF=.30782 CJO=127.22E-12 M=.42266
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=24.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5L06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH5L06D D
++ IS=494.98E-9 N=2.2603 RS=14.292E-3 IKF=.30782 CJO=127.22E-12 M=.42266
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=24.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5L06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH5L06FP D
++ IS=494.98E-9 N=2.2603 RS=14.292E-3 IKF=.30782 CJO=127.22E-12 M=.42266
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=24.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5L06RL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-201AD in Tape&Reel
+*******************************************************************
+.MODEL STTH5L06RL D
++ IS=494.98E-9 N=2.2603 RS=14.292E-3 IKF=.30782 CJO=127.22E-12 M=.42266
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=24.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06B
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK in Tube
+*******************************************************************
+.MODEL STTH5R06B D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06B-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK in Tape&Reel
+*******************************************************************
+.MODEL STTH5R06B-TR D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH5R06D D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH5R06FP D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH5R06G D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5R06G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH5R06G-TR D
++ IS=122.71E-6 N=5 RS=32.995E-3 IKF=.1522 CJO=67.333E-12 M=.28336
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH506B
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK in Tube
+*******************************************************************
+.MODEL STTH506B D
++ IS=4.9950E-6 N=3.2782 RS=41.082E-3 IKF=85.072E-3 CJO=81.332E-12 M=.38317
++ VJ=.3905 ISR=100.00E-12 FC=0.5 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH506B-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK in Tape&Reel
+*******************************************************************
+.MODEL STTH506B-TR D
++ IS=4.9950E-6 N=3.2782 RS=41.082E-3 IKF=85.072E-3 CJO=81.332E-12 M=.38317
++ VJ=.3905 ISR=100.00E-12 FC=0.5 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH506D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH506D D
++ IS=4.9950E-6 N=3.2782 RS=41.082E-3 IKF=85.072E-3 CJO=81.332E-12 M=.38317
++ VJ=.3905 ISR=100.00E-12 FC=0.5 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH506FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH506FP D
++ IS=4.9950E-6 N=3.2782 RS=41.082E-3 IKF=85.072E-3 CJO=81.332E-12 M=.38317
++ VJ=.3905 ISR=100.00E-12 FC=0.5 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH5V06DJF-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : POWER FLAT 5*6
+*******************************************************************
+.MODEL STTH5V06DJF-TR D
++ IS=14.317E-6 N=3.1792 RS=.1438 IKF=49.192E-3 CJO=100.43E-12 M=.33095
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH806G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK
+*******************************************************************
+*model STTH806G  anode
+*				 | cathode
+*				 | |
+.subckt STTH806G 3 4
+d1 3 4 dx
+.model dx	D(IS=3.7343E-6 N=2.5944 RS=13.619E-3 IKF=.12495 CJO=136.42E-12 M=.40979
++			VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.0000E-9)
+
+*	STMicroelectronics	case=D²PAK   Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH806G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK  in tape&reel
+*******************************************************************
+*model STTH806G-TR  anode
+*				    | cathode
+*				    | |
+.subckt STTH806G-TR 3 4
+d1 3 4 dx
+.model dx	D(IS=3.7343E-6 N=2.5944 RS=13.619E-3 IKF=.12495 CJO=136.42E-12 M=.40979
++			VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.0000E-9)
+
+*	STMicroelectronics	case=D²PAK   Delivery= Tape&Reel
+.ends
+
+*******************************************************************
+* Model name       : STTH806D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH806D D
++ IS=3.7343E-6 N=2.5944 RS=13.619E-3 IKF=.12495 CJO=136.42E-12 M=.40979
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH806DIRG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Box
+*******************************************************************
+.MODEL STTH806DIRG D
++ IS=3.7343E-6 N=2.5944 RS=13.619E-3 IKF=.12495 CJO=136.42E-12 M=.40979
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8L06D D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06DI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Box
+*******************************************************************
+.MODEL STTH8L06DI D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06DIRG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Tube
+*******************************************************************
+.MODEL STTH8L06DIRG D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH8L06FP D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH8L06G D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8L06G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH8L06G-TR D
++ IS=14.759E-9 N=1.5521 RS=10.054E-3 IKF=66.763E-3 CJO=196.23E-12 M=.41953
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8R06D D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06DI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Box
+*******************************************************************
+.MODEL STTH8R06DI D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06DIRG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Tube
+*******************************************************************
+.MODEL STTH8R06DIRG D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH8R06FP D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH8R06G D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH8R06G-TR D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH8R06R
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : I²PAK
+*******************************************************************
+.MODEL STTH8R06R D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+
+******************************************************************
+* Model name       : STTH8S06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8S06D D
++ IS=12.374E-6 N=3.8000 RS=87.109E-3 IKF=42.651E-3 CJO=82.068E-12 M=.31236
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=9.50000E-9 XTI=3 EG=1.11
+*$
+
+******************************************************************
+* Model name       : STTH8S06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH8S06FP D
++ IS=12.374E-6 N=3.8000 RS=87.109E-3 IKF=42.651E-3 CJO=82.068E-12 M=.31236
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=9.5000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH10LCD06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH10LCD06D D
++ IS=1.4435E-6 N=2.4927 RS=21.182E-3 IKF=55.045E-3 CJO=81.177E-12 M=.38227
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 EG=1.11 XTI=3 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH10LCD06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH10LCD06FP D
++ IS=1.4435E-6 N=2.4927 RS=21.182E-3 IKF=55.045E-3 CJO=81.177E-12 M=.38227
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 EG=1.11 XTI=3 TT=19.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH10LCD06SB-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DPAK in tape&reel
+*******************************************************************
+*model STTH10LCD06SB-TR  anode
+*				 		 | cathode
+*				 		 | |
+.subckt STTH10LCD06SB-TR 1 4
+d1 1 4 dx
+.model dx	D(IS=1.4435E-6 N=2.4927 RS=21.182E-3 IKF=55.045E-3 CJO=81.177E-12 M=.38227
++			  VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 EG=1.11 XTI=3 TT=19.0000E-9)
+
+*	STMicroelectronics	case=DPAK   Delivery= Tape&Reel
+.ends
+
+*******************************************************************
+* Model name       : STTH10LCD06SG-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in tape&reel
+*******************************************************************
+*model STTH10LCD06SG-TR  anode
+*				    	 | cathode
+*				    	 | |
+.subckt STTH10LCD06SG-TR 1 4
+d1 1 4 dx
+.model dx	D(IS=1.4435E-6 N=2.4927 RS=21.182E-3 IKF=55.045E-3 CJO=81.177E-12 M=.38227
++			  VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 EG=1.11 XTI=3 TT=19.0000E-9)
+
+*	STMicroelectronics	case=D²PAK   Delivery= Tape&Reel
+.ends
+
+*******************************************************************
+* Model name       : STTH10LCD06CFP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAB
+*******************************************************************
+*model STTH10LCD06CFP  anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH10LCD06CFP 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=797.33E-9 N=2.5242 RS=29.400E-3 IKF=60.588E-3 CJO=58.221E-12 XTI=3
++			  EG=1.11 M=.41331 VJ=.40692 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=18.000E-9)
+
+*	STMicroelectronics	case=TO-220FPAB	Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH10LCD06CG-TR 
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK   in tape&reel
+*************************************************************
+*model STTH10LCD06CG-TR	 anode1
+*				     	 | anode2
+*				     	 | | cathode
+*				     	 | | |
+.subckt STTH10LCD06CG-TR 1 3 4
+d1 1 4 dx
+d2 3 4 dx
+.model dx	D(IS=797.33E-9 N=2.5242 RS=29.400E-3 IKF=60.588E-3 CJO=58.221E-12 XTI=3
++			  EG=1.11 M=.41331 VJ=.40692 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=18.0000E-9)
+
+*	STMicroelectronics	case=D²PAK	Delivery= Tape & Reel
+.ends
+
+*******************************************************************
+* Model name       : STTH10LCD06CT 
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STTH10LCD06CT   anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH10LCD06CT  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=797.33E-9 N=2.5242 RS=29.400E-3 IKF=60.588E-3 CJO=58.221E-12 XTI=3
++			  EG=1.11 M=.41331 VJ=.40692 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=18.0000E-9)
+
+*	STMicroelectronics	case=TO-220AB	Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH12R06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH12R06D D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12R06DI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Box
+*******************************************************************
+.MODEL STTH12R06DI D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12R06DIRG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC Insulated in Tube
+*******************************************************************
+.MODEL STTH12R06DIRG D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12R06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH12R06FP D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12R06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH12R06G D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12R06G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH12R06G-TR D
++ IS=277.96E-6 N=5 RS=23.473E-3 IKF=.21646 CJO=173.93E-12 M=.34766
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.700E-9
+*$
+
+*******************************************************************
+* Model name       : STTH12S06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH12S06FP D
++ IS=168.23E-6 N=4.9404 RS=44.400E-3 IKF=.24974 CJO=95.129E-12 M=.28195
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.700E-9
+*$
+ 
+*******************************************************************
+* Model name       : STTH15AC06CFP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAB
+*******************************************************************
+*model STTH15AC06CFP  anode1
+*					 | cathode
+*					 | | anode2
+*					 | | |
+.subckt STTH15AC06CFP 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=189.80E-9 N=2.0407 RS=20.418E-3 IKF=38.589E-3 CJO=89.582E-12 M=.39107
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=20E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=TO-220FPAB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH15AC06CT
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STTH15AC06CT  anode1
+*				    | cathode
+*				    | | anode2
+*				    | | |
+.subckt STTH15AC06CT 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=189.80E-9 N=2.0407 RS=20.418E-3 IKF=38.589E-3 CJO=89.582E-12 M=.39107
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=20E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH15L06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH15L06D D
++ IS=29.668E-9 N=1.5589 RS=7.2574E-3 IKF=98.236E-3 CJO=287.32E-12 M=.44923
++ VJ=.49993 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=40.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15L06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH15L06FP D
++ IS=29.668E-9 N=1.5589 RS=7.2574E-3 IKF=98.236E-3 CJO=287.32E-12 M=.44923
++ VJ=.49993 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=40.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15L06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH15L06G D
++ IS=29.668E-9 N=1.5589 RS=7.2574E-3 IKF=98.236E-3 CJO=287.32E-12 M=.44923
++ VJ=.49993 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=40.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15L06G-TR
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH15L06G-TR D
++ IS=29.668E-9 N=1.5589 RS=7.2574E-3 IKF=98.236E-3 CJO=287.32E-12 M=.44923
++ VJ=.49993 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=40.5000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15R06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH15R06D D
++ IS=294.69E-6 N=5 RS=12.270E-3 IKF=.21161 CJO=192.01E-12 M=.28683
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13.00E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15R06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH15R06FP D
++ IS=294.69E-6 N=5 RS=12.270E-3 IKF=.21161 CJO=192.01E-12 M=.28683
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=13.00E-9
+*$
+
+*******************************************************************
+* Model name       : STTH15RQ06G
+* Description      : Power Schottky rectifier
+* Package type     : D²PAK   in tape&reel
+*******************************************************************
+*model STTH15RQ06G    anode
+*		    	  	  | cathode
+*		    	  	  | |
+.subckt STTH15RQ06G   3 4
+d1 3 4 dx
+.model dx	D(IS=16.568E-6 N=3.3165 RS=43.584E-3 IKF=.12208 CJO=129.08E-12
++ M=.3179 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=32.0000E-9
++ XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=DPAK      Delivery = tape&reel
+.ends
+*$
+ 
+*******************************************************************
+* Model name       : STTH15RQ06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH15RQ06D D
++ IS=16.568E-6 N=3.3165 RS=43.584E-3 IKF=.12208 CJO=129.08E-12
++ M=.3179 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=32.0000E-9
++ XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH15RQ06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH15RQ06W D
++ IS=16.568E-6 N=3.3165 RS=43.584E-3 IKF=.12208 CJO=129.08E-12
++ M=.3179 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=32.0000E-9
++ XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH16L06CFP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAB
+*******************************************************************
+*model STPS16L06CFP  anode1
+*					 | cathode
+*					 | | anode2
+*					 | | |
+.subckt STPS16L06CFP 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=1.2350E-6 N=2.3455 RS=10.941E-3 IKF=.13603 CJO=149.44E-12 M=.4354
++		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.500E-9)
+
+*	STMicroelectronics	case=TO-220FPAB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH16L06CG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+*model STPS16L06CG  anode1
+*		    		| cathode
+*		    		| | anode2
+*		    		| | |
+.subckt STPS16L06CG 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=1.2350E-6 N=2.3455 RS=10.941E-3 IKF=.13603 CJO=149.44E-12 M=.4354
++		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.500E-9)
+
+*	STMicroelectronics	case=D²PAK     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH16L06CT
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STPS16L06CT  anode1
+*				    | cathode
+*				    | | anode2
+*				    | | |
+.subckt STPS16L06CT 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=1.2350E-6 N=2.3455 RS=10.941E-3 IKF=.13603 CJO=149.44E-12 M=.4354
++		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=29.500E-9)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH20LCD06CFP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAB
+*******************************************************************
+*model STTH20LCD06CFP  anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH20LCD06CFP 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=761.89E-9 N=2.3630 RS=19.854E-3 IKF=67.118E-3 CJO=89.594E-12 XTI=3
++			  EG=1.11 M=.3914 VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=19.000E-9)
+
+*	STMicroelectronics	case=TO-220FPAB	Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH20LCD06CG-TR 
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK   in tape&reel
+*************************************************************
+*model STTH20LCD06CG-TR	 anode1
+*				     	 | anode2
+*				     	 | | cathode
+*				     	 | | |
+.subckt STTH20LCD06CG-TR 1 3 4
+d1 1 4 dx
+d2 3 4 dx
+.model dx	D(IS=761.89E-9 N=2.3630 RS=19.854E-3 IKF=67.118E-3 CJO=89.594E-12 XTI=3
++			  EG=1.11 M=.3914 VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=19.0000E-9)
+
+*	STMicroelectronics	case=D²PAK	Delivery= Tape & Reel
+.ends
+
+*******************************************************************
+* Model name       : STTH20LCD06CT 
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STTH20LCD06CT   anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH20LCD06CT  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=761.89E-9 N=2.3630 RS=19.854E-3 IKF=67.118E-3 CJO=89.594E-12 XTI=3
++			  EG=1.11 M=.3914 VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=19.0000E-9)
+
+*	STMicroelectronics	case=TO-220AB	Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH30AC06FP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220FPAC
+*******************************************************************
+.MODEL STTH30AC06FP D
++ IS=294.39E-9 N=1.8806 RS=10.736E-3 IKF=89.074E-3 CJO=356.97E-12 M=.38413
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=22.0000E-9 XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH30AC06CP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO3P-3L
+*******************************************************************
+*model STTH30AC06CP  anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STTH30AC06CP 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=374.48E-9 N=2.0382 RS=23.360E-3 IKF=61.552E-3 CJO=198.73E-12 M=.39969
++ VJ=.39089 ISR=10.010E-21 NR=4.9950 TT=19.300E-9 XTI=3 EG=1.1 FC=0.5)
+
+*	STMicroelectronics	case=TO3P-3L     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30AC06CPF
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-3PF
+*******************************************************************
+*model STTH30AC06CPF   anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH30AC06CPF  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=374.48E-9 N=2.0382 RS=23.360E-3 IKF=61.552E-3 CJO=198.73E-12 M=.39969
++ VJ=.39089 ISR=10.010E-21 NR=4.9950 TT=19.300E-9 XTI=3 EG=1.1 FC=0.5)
+
+*	STMicroelectronics	case=TO-3PF     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30AC06CWL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247 LL
+*******************************************************************
+*model STTH30AC06CWL   anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH30AC06CWL  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=374.48E-9 N=2.0382 RS=23.360E-3 IKF=61.552E-3 CJO=198.73E-12 M=.39969
++ VJ=.39089 ISR=10.010E-21 NR=4.9950 TT=19.300E-9 XTI=3 EG=1.1 FC=0.5)
+
+*	STMicroelectronics	case=TO-247 LL     Delivery = Tube
+.ends
+*$    
+
+*******************************************************************
+* Model name       : STTH30ACS06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+*model STTH30ACS06W   anode
+*				      | cathode
+*				      | |
+*				      | |
+.subckt STTH30ACS06W  1 2
+d1 1 2 dx
+
+.model dx	D(IS=150.92E-9 N=1.8678 RS=17.667E-3 IKF=46.921E-3 CJO=182.43E-12 M=.39214
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=5.0000E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=DO-247      Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30L06CG
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in tube
+*******************************************************************
+*model STPS30L06CG   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STPS30L06CG  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=26.709E-9 N=1.5395 RS=7.4080E-3 IKF=87.436E-3 CJO=309.30E-12 M=.44071
++ 		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=39.500E-9)
+
+*	STMicroelectronics	case=D²PAK     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30L06CT
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STPS30L06CT   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STPS30L06CT  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=26.709E-9 N=1.5395 RS=7.4080E-3 IKF=87.436E-3 CJO=309.30E-12 M=.44071
++ 		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=39.500E-9)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30L06CW
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247
+*******************************************************************
+*model STPS30L06CW   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STPS30L06CW  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=26.709E-9 N=1.5395 RS=7.4080E-3 IKF=87.436E-3 CJO=309.30E-12 M=.44071
++ 		VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=39.500E-9)
+
+*	STMicroelectronics	case=TO-247     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30R06CW
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247
+*******************************************************************
+*model STTH30R06CW   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STTH30R06CW  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=10.000E-6 N=3 RS=18.511E-3 IKF=4.1311E-3 CJO=228.57E-12 M=.33603
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=15.0000E-9)
+
+*	STMicroelectronics	case=TO-247     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH30RQ06G
+* Description      : Power Schottky rectifier
+* Package type     : D²PAK   in tape&reel
+*******************************************************************
+*model STTH30RQ06G    anode
+*		    	  	  | cathode
+*		    	  	  | |
+.subckt STTH30RQ06G   3 4
+d1 3 4 dx
+.model dx	D(IS=5.7982E-6 N=2.6133 RS=29.516E-3 IKF=.12254 CJO=226.89E-12
++ M=.33367 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=42.0000E-9
++ XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=DPAK      Delivery = tape&reel
+.ends
+
+*******************************************************************
+* Model name       : STTH30RQ06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH30RQ06D D
++ IS=5.7982E-6 N=2.6133 RS=29.516E-3 IKF=.12254 CJO=226.89E-12
++ M=.33367 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=42.0000E-9
++ XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH30RQ06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH30RQ06W D
++ IS=5.7982E-6 N=2.6133 RS=29.516E-3 IKF=.12254 CJO=226.89E-12
++ M=.33367 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=42.0000E-9
++ XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH30L06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH30L06D D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH30L06G
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tube
+*******************************************************************
+.MODEL STTH30L06G D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+* Model name       : STTH30L06G-TR                                             
+*******************************************************************
+
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : D²PAK in Tape&Reel
+*******************************************************************
+.MODEL STTH30L06G-TR D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH30L06P
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SOD-93
+*******************************************************************
+.MODEL STTH30L06P D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH30L06PI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DOP3I
+*******************************************************************
+.MODEL STTH30L06PI D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH30L06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH30L06W D
++ IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++ VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH30S06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH30S06W D
++ IS=10.000E-6 N=3.1157 RS=22.195E-3 IKF=.11498 CJO=182.33E-12 M=.25909
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 BV=600 IBV=1.00E-6
++ FC=0.5 TT=10.10E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH3006D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH3006D D
++ IS=714.95E-6 N=4.9950 RS=2.4366E-3 IKF=1.0000E3 CJO=502.36E-12 M=.40911
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.300E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3006P
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SOD-93
+*******************************************************************
+.MODEL STTH3006P D
++ IS=714.95E-6
++ IS=714.95E-6 N=4.9950 RS=2.4366E-3 IKF=1.0000E3 CJO=502.36E-12 M=.40911
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.300E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3006PI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DOP3I
+*******************************************************************
+.MODEL STTH3006PI D
++ IS=714.95E-6 N=4.9950 RS=2.4366E-3 IKF=1.0000E3 CJO=502.36E-12 M=.40911
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.300E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3006W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH3006W D
++ IS=714.95E-6 N=4.9950 RS=2.4366E-3 IKF=1.0000E3 CJO=502.36E-12 M=.40911
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.300E-9
+*$
+*******************************************************************
+* Model name       : STTH30R06D
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH30R06D D
++ IS=730.80E-9 N=1.9822 RS=6.5197E-3 IKF=.16838 CJO=462.57E-12 M=.41891
++ VJ=.52827 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH30R06P
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : SOD-93
+*******************************************************************
+.MODEL STTH30R06P D
++ IS=730.80E-9 N=1.9822 RS=6.5197E-3 IKF=.16838 CJO=462.57E-12 M=.41891
++ VJ=.52827 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH30R06PI
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DOP3I
+*******************************************************************
+.MODEL STTH30R06PI D
++ IS=730.80E-9 N=1.9822 RS=6.5197E-3 IKF=.16838 CJO=462.57E-12 M=.41891
++ VJ=.52827 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH30R06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH30R06W D
++ IS=730.80E-9 N=1.9822 RS=6.5197E-3 IKF=.16838 CJO=462.57E-12 M=.41891
++ VJ=.52827 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=25.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH50W06SW 
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247  
+*******************************************************************
+*model STTH50W06SW   anode
+*				     | cathode
+*				     | | anode
+*					 | | |	 
+.subckt STTH50W06SW  1 2 3
+d1 13 2 dx
+r1 13 1 0.1E-3
+r2 13 3 0.1E-3
+.model dx	D(IS=2.2039E-6 N=2.1256 RS=8.6087E-3 IKF=.19115 CJO=290.23E-12 M=.25217
++ 			  VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=33.0000E-9 XTI=3 EG=1.11)
+
+*	STMicroelectronics	case=TO-247  	Delivery= Tube
+.ends
+
+
+*******************************************************************
+* Model name       : STTH6006W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+******************************************************************* 
+.MODEL STTH6006W D
++ IS=676.83E-9 N=1.8822 RS=3.1251E-3 IKF=.45133 CJO=948.68E-12 M=.40603
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=60.0000E-9
+*$
+
+*******************************************************************
+* Model name       : STTH60AC06CP
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO3P-3L
+*******************************************************************
+*model STTH60AC06CP   anode1
+*				      | cathode
+*				      | | anode2
+*				      | | |
+.subckt STTH60AC06CP  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=151.91E-9 N=1.7589 RS=4.7285E-3 IKF=.11516 CJO=457.15E-12 M=.42785
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=27.0000E-9 XTI=3 EG=1.11 FC=0.5)  
+
+*	STMicroelectronics	case=TO3P-3L     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH60AC06CPF
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-3PF
+*******************************************************************
+*model STTH60AC06CPF   anode1
+*				       | cathode
+*				       | | anode2
+*				       | | |
+.subckt STTH60AC06CPF  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=151.91E-9 N=1.7589 RS=4.7285E-3 IKF=.11516 CJO=457.15E-12 M=.42785
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=27.0000E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=TO-3PF     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH60AC06CW
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247 LL
+*******************************************************************
+*model STTH60AC06CW   anode1
+*				      | cathode
+*				      | | anode2
+*				      | | |
+.subckt STTH60AC06CW  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=151.91E-9 N=1.7589 RS=4.7285E-3 IKF=.11516 CJO=457.15E-12 M=.42785
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=27.0000E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=TO-247 LL     Delivery = Tube
+.ends
+*$
+*******************************************************************
+* Model name       : STTH60L06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH60L06W D
++ IS=13.611E-9 N=1.3449 RS=2.5102E-3 IKF=.15199 CJO=1.1763E-9 M=.43039
++ VJ=.3905 ISR=313.95E-12 NR=4.9950 FC=0.5 TT=59.00E-9
+*$
+
+*******************************************************************
+* Model name       : STTH6006TV1
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : ISOTOP
+*******************************************************************
+*model STTH6006TV1  anode1
+*				    |  anode2
+*				    |  |  cathode1
+*				    |  |  |  cathode2
+*				    |  |  |  |
+.subckt STTH6006TV1 A1 A2 K1 K2
+d1 A1 K1 dx
+d2 A2 K2 dx
+.model dx	D(IS=714.95E-6 N=4.9950 RS=2.4366E-3 IKF=1.0000E3 CJO=502.36E-12 M=.40911
++			VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.300E-9)
+
+*	STMicroelectronics	case=ISOTOP       Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH60L06CW
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247
+*******************************************************************
+*model STPS60L06CW   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STPS60L06CW  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++		VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9)
+
+*	STMicroelectronics	case=TO-247     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH60L06TV1
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO247
+*******************************************************************
+*model STTH60L06TV1   anode1
+*				      |	 anode2
+*				      |	 |  cathode1
+*				      |  |  |  cathode2
+*				      |	 |  |  |
+.subckt STTH60L06TV1 A1 A2 K1 K2
+d1 A1 K1 dx
+d2 A2 K2 dx
+.model dx	D(IS=58.786E-9 N=1.5557 RS=5.1950E-3 IKF=.16111 CJO=577.95E-12 M=.46359
++		VJ=.52581 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=53.500E-9)
+
+*	STMicroelectronics	case=ISOTOP       Delivery= Tube
+.ends
+
+
+*******************************************************************
+* Model name       : STTH60RQ06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH60RQ06W D
++ IS=3.2671E-3 N=5 RS=10.439E-3 IKF=2.0106 CJO=464.48E-12 M=.32839
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=42.0000E-9 XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH60RQ06CWL
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247
+*******************************************************************
+*model STTH60RQ06CWL   anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STTH60RQ06CWL  1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=5.7982E-6 N=2.6133 RS=29.516E-3 IKF=.12254 CJO=226.89E-12
++ M=.33367 VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=42.0000E-9 XTI=3 EG=1.11 FC=0.5)
+
+*	STMicroelectronics	case=TO-247     Delivery = Tube
+.ends
+*$
+
+
+*******************************************************************
+* Model name       : STTH60T06WY
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH60T06WY D
++ IS=295.14E-9 N=1.7334 RS=5.6561E-3 IKF=.14799 CJO=761.70E-12 M=.40053
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=35.0000E-9 XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH8006W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH8006W D
++ IS=13.611E-9 N=1.3449 RS=2.5102E-3 IKF=.15199 CJO=1.1763E-9 M=.43039
++ VJ=.3905 ISR=313.95E-12 NR=4.9950 FC=0.5 TT=20.00E-9
+*$
+
+*******************************************************************
+* Model name       : STTH80S06W
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : DO-247
+*******************************************************************
+.MODEL STTH80S06W D
++ IS=44.990E-6 N=3.1057 RS=13.148E-3 IKF=.41677 CJO=498.77E-12 M=.30809
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 TT=17.0000E-9 XTI=3 EG=1.11 FC=0.5
+*$
+
+*******************************************************************
+* Model name       : STTH100W06CW
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-247
+*******************************************************************
+*model STTH100W06CW  anode1
+*				     | cathode
+*				     | | anode2
+*				     | | |
+.subckt STTH100W06CW 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=16.106E-9 N=1.3407 RS=2.7420E-3 IKF=.19532 CJO=1.3012E-9 M=.43162
++ 			  VJ=.41963 ISR=1.3779E-9 NR=2.8241 FC=0.5 TT=80.000E-9 XTI=3 EG=1.11)
+
+*	STMicroelectronics	case=TO-247     Delivery = Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH120L06TV1
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : ISOTOP
+*******************************************************************
+*model STTH120L06TV1  anode1
+*				      |	 anode2
+*				      |	 |  cathode1
+*				      |  |  |  cathode2
+*				      |	 |  |  |
+.subckt STTH120L06TV1 A1 A2 K1 K2
+d1 A1 K1 dx
+d2 A2 K2 dx
+.model dx	D(IS=21.316E-9 N=1.3969 RS=2.1856E-3 IKF=.20188 CJO=1.1106E-9 M=.43356
++		VJ=.45621 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=65.00E-9)
+
+*	STMicroelectronics	case=ISOTOP       Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH200L06TV1
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : ISOTOP
+*******************************************************************
+*model STTH200L06TV1  anode1
+*				      |	 anode2
+*				      |	 |  cathode1
+*				      |  |  |  cathode2
+*				      |	 |  |  |
+.subckt STTH200L06TV1 A1 A2 K1 K2
+d1 A1 K1 dx
+d2 A2 K2 dx
+.model dx	D(IS=26.590E-9 N=1.3309 RS=1.6355E-3 IKF=.30308 CJO=2.4064E-9 M=.44794
++		VJ=.41433 ISR=188.44E-12 NR=4.9950 FC=0.5 TT=63.000E-9)
+
+*	STMicroelectronics	case=ISOTOP       Delivery= Tube
+.ends
+
+*******************************************************************
+* Model name       : STTH200W06TV1
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : ISOTOP
+*******************************************************************
+*model STTH200W06TV1  anode1
+*				      |	 anode2
+*				      |	 |  cathode1
+*				      |  |  |  cathode2
+*				      |	 |  |  |
+.subckt STTH200W06TV1 A1 A2 K1 K2
+d1 A1 K1 dx
+d2 A2 K2 dx
+.model dx	D(IS=12.661E-9 N=1.2872 RS=1.5460E-3 IKF=.22842 CJO=1.8770E-9 M=.43055
++			  VJ=.3905 ISR=856.01E-12 NR=4.9950 FC=0.5 TT=79.000E-9 XTI=3 EG=1.11)
+
+*	STMicroelectronics	case=ISOTOP       Delivery= Tube
+.ends
+
+
+
+        
+   
+    
+
+*******************************************************************
+* TANDEM 600V HYPERFAST BOOST DIODE
+*******************************************************************
+
+*******************************************************************
+* Model name       : STTH506DTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TO-220AC INSULATED
+*******************************************************************
+.MODEL STTH506DTI D
++ IS=2.4893E-6 N=4.9950 RS=60.542E-3 IKF=75.393E-3 CJO=57.000E-12 M=.36024
++ VJ=.44229 FC=.65 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=6.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH506TTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TO-220AB INSULATED
+*******************************************************************
+*model STTH506TTI   anode1
+*				    | cathode1-anode2
+*				    | | cathode2
+*				    | | |
+.subckt STTH506TTI  1 2 3
+d1 1 2 dx
+d2 2 3 dx
+.model dx	D(IS=2.4893E-6 N=4.9950 RS=60.542E-3 IKF=75.393E-3 CJO=57.000E-12 M=.36024
++		VJ=.44229 FC=.65 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=6.500E-9)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH806DTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TO-220AC INSULATED
+*******************************************************************
+.MODEL STTH806DTI D
++ IS=9.1023E-6 N=3.2922 RS=29.909E-3 IKF=.14033 CJO=93.732E-12 M=.38053
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=40.300E-9
+*$
+
+*******************************************************************
+* Model name       : STTH806TTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TO-220AB INSULATED
+*******************************************************************
+*model STTH806TTI   anode1
+*				    | cathode1-anode2
+*				    | | cathode2
+*				    | | |
+.subckt STTH806TTI  1 2 3
+d1 1 2 dx
+d2 2 3 dx
+.model dx	D(IS=418.57E-9 N=1.9116 RS=36.640E-3 IKF=55.988E-3 EG=1.11
++		XTI=3 CJO=185.38E-12 M=.31786 VJ=.21316 ISR=10.010E-21
++		FC=0.5 NR=4.9950 TT=15.500E-9)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH8ST06DI
+* Description      : 600V Tandem Extra Fast Diode
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8ST06DI D
++ IS=1.9202E-6 N=5 RS=75.624E-3 IKF=18.927E-3 CJO=32.921E-12 M=.22806
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=3.5000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH8T06DI
+* Description      : 600V Tandem Extra Fast Diode
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8T06DI D
++ IS=3.3905E-6 N=5 RS=39.548E-3 IKF=.14124 CJO=157.48E-12 M=.46826
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=4.500E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH12T06DI
+* Description      : 600V Tandem Extra Fast Diode
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH12T06DI D
++ IS=3.9723E-6 N=5 RS=33.040E-3 IKF=.19514 CJO=142.00E-12 M=.38763
++ VJ=.39365 ISR=10.010E-21 NR=5 FC=0.5 TT=4.5000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH1506DPI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : DOP3I
+*******************************************************************
+.MODEL STTH1506DPI D
++ IS=4.1039E-6 N=4.7419 RS=27.127E-3 IKF=.18598 CJO=190.25E-12 M=.39822
++ VJ=.39786 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.900E-9
+*$
+
+*******************************************************************
+* Model name       : STTH1506TTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TOP3I
+*******************************************************************
+*model STTH1506TTI  anode1
+*				    | cathode1-anode2
+*				    | | cathode2
+*				    | | |
+.subckt STTH1506TTI 1 2 3
+d1 1 2 dx
+d2 2 3 dx
+.model dx	D(IS=4.1039E-6 N=4.7419 RS=27.127E-3 IKF=.18598 CJO=190.25E-12 M=.39822
++		VJ=.39786 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.900E-9)
+
+*	STMicroelectronics	case=TOP3I     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH25M06FP
+* Description      : 600V ultrafast high voltage diode
+* Package type     : TO220FPAC
+*******************************************************************
+.MODEL STTH25M06FP D
++ IS=38.494E-6 N=4.9950 RS=25.070E-3 IKF=999 CJO=139.36E-12 M=.28746
++ VJ=.3905 ISR=10.010E-21 TT=15.0000E-9 FC=0.5 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH25M06B-TR
+* Description      : 600V ultrafast high voltage diode
+* Package type     : TO220FPAC
+*******************************************************************
+.MODEL STTH25M06B-TR D
++ IS=38.494E-6 N=4.9950 RS=25.070E-3 IKF=999 CJO=139.36E-12 M=.28746
++ VJ=.3905 ISR=10.010E-21 TT=15.0000E-9 FC=0.5 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH3006DPI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : DOP3I
+*******************************************************************
+.MODEL STTH3006DPI D
++ IS=11.012E-6 N=4.9950 RS=13.225E-3 IKF=2.3478 CJO=285.67E-12 M=.3577
++ VJ=1.5690 ISR=10.010E-21 NR=4.9950 FC=0.65 TT=14.500E-9
+*$
+
+*******************************************************************
+* Model name       : STTH3006TTI
+* Description      : Tandem 600V Hyperfast Boost Diode
+* Package type     : TOP3I
+*******************************************************************
+*model STTH3006TTI  anode1
+*				    | cathode1-anode2
+*				    | | cathode2
+*				    | | |
+.subckt STTH3006TTI 1 2 3
+d1 1 2 dx
+d2 2 3 dx
+.model dx	D(IS=11.012E-6 N=4.9950 RS=13.225E-3 IKF=2.3478 CJO=285.67E-12 M=.3577
++		VJ=1.5690 ISR=10.010E-21 NR=4.9950 FC=0.65 TT=14.500E-9)
+
+*	STMicroelectronics	case=TOP3I   Delivery = Tube
+.ends
+*$
+
+
+
+
+
+
+
+*******************************************************************
+* 600V&650V HIGH VOLTAGE RECTIFIER FOR BC2 TOPOLOGY
+*******************************************************************
+
+*******************************************************************
+* Model name       : STTH3BCF060U
+* Description      : 600V HIGH VOLTAGE RECTIFIER FOR BC2 TOPOLOGY
+* Package type     : SMB
+*******************************************************************
+.MODEL STTH3BCF060U D
++ IS=202.51E-9 N=2.0802 RS=41.445E-3 IKF=29.704E-3 CJO=77.510E-12 M=.39687
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=16.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH5BCF060
+* Description      : 600V HIGH VOLTAGE FREE WHEEL RECTIFIER FOR BC2
+* Package type     : DO-201AD
+*******************************************************************
+.MODEL STTH5BCF060 D
++ IS=5.0000E-6 N=3.7681 RS=51.489E-3 IKF=39.864E-3 CJO=68.363E-12 M=.30811
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=10.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH8BC060D
+* Description      : 600V HIGH VOLTAGE RECTIFIER FOR BC2 TOPOLOGY
+* Package type     : TO-220AC
+*******************************************************************
+.MODEL STTH8BC060D D
++ IS=2.0000E-6 N=2.6955 RS=60.412E-3 IKF=29.056E-3 CJO=75.712E-12 M=.33217
++ VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=8.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH8BC065DI
+* Description      : 600V HIGH VOLTAGE RECTIFIER FOR BC2 TOPOLOGY
+* Package type     : TO-220AC insulated
+*******************************************************************
+.MODEL STTH8BC065DI D
++ IS=6.0675E-6 N=4.9950 RS=70.884E-3 IKF=78.767E-3 CJO=41.493E-12 M=.3274
++ VJ=1.3879 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=9.0000E-9 XTI=3 EG=1.11
+*$
+
+*******************************************************************
+* Model name       : STTH10BC065CT
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STTH10BC065CT  anode1
+*				      | cathode
+*				      | | anode2
+*				      | | |
+.subckt STTH10BC065CT 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=20.000E-6 N=5 RS=20.510E-3 IKF=.18711 CJO=67.636E-12 M=.31576
++			 VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=11.0000E-9 XTI=3 EG=1.11)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+*******************************************************************
+* Model name       : STTH16BC065CT
+* Description      : Turbo2 Ultrafast High Voltage Rectifier
+* Package type     : TO-220AB
+*******************************************************************
+*model STTH16BC065CT  anode1
+*				      | cathode
+*				      | | anode2
+*				      | | |
+.subckt STTH16BC065CT 1 2 3
+d1 1 2 dx
+d2 3 2 dx
+.model dx	D(IS=20.000E-6 N=5 RS=23.956E-3 IKF=.39154 CJO=109.68E-12 M=.31864
++			  VJ=.3905 ISR=10.010E-21 NR=4.9950 FC=0.5 TT=12.50000E-9 XTI=3 EG=1.11)
+
+*	STMicroelectronics	case=TO-220AB     Delivery = Tube
+.ends
+*$
+
+
+
+*-------------------------------------
+*THANKS TO USE THE ST'S PRODUCTS
+*-------------------------------------
+
+* End of library.
+*$
