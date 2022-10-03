@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/0BxEAFQHdPMEFUkFvR1BTWEE0SGM?usp=sharing
 
 ## Проект "Ценерови Диоди"
 * [ZenerDiodes/Zener-VI](ZenerDiodes/Zener-VI) - Волт-амперни характеристики
-* [ZenerDiodes/Zener-Clipper](ZenerDiodes/Zener-Clipper) - Схеми на ограничители
+* [ZenerDiodes/Zener-Limiter](ZenerDiodes/Zener-Limiter) - Схеми на ограничители
 
 ## Проект "Светодиоди"
 * [LED/LED-VI](LED/LED-VI) - Волт-амперни характеристики

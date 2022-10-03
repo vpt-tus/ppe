@@ -2,4 +2,4 @@
 
 ## Проект "Ценерови Диоди"
 * [Zener-VI](Zener-VI) - Волт-амперни характеристики
-* [Zener-Clipper](Zener-Clipper) - Схеми на ограничители на напрежение
+* [Zener-Limiter](Zener-Limiter) - Схеми на ограничители
