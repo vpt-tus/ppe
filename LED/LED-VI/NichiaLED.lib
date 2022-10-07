@@ -1,0 +1,33 @@
+**********************************************************
+*Document No.:SE-KSE084264
+*Date        :2/12/2021
+*Part Number :NF2W757GR_V4H6
+*Spec Ref.   :SE-KSE084270
+*Color       ：White
+*All Rights Reserved Copyright (c) Nichia Corporation 2021
+**********************************************************
+.model NF2W757GR_V4H6 D 
++ IS=4.0748E-20
++ N=4.995
++ RS=4.4431
++ IKF=1.6504
++ EG=5
++ XTI=50
+*$
+
+**********************************************************
+*Document No.:SE-KSE089670
+*Date        :9/3/2021
+*Part Number :NF2E757H_F1
+*Spec Ref.   :SE-KSE089668
+*Color       : Azure
+*All Rights Reserved Copyright (c) Nichia Corporation 2021
+**********************************************************
+.model NF2E757H_F1 D 
++ IS=1.0000E-30
++ N=1.5474
++ RS=1.3456
++ IKF=0
++ EG=2.5
++ XTI=18
+*$
