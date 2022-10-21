@@ -10,19 +10,14 @@ https://forms.gle/VGVx4JGKVt3wrcGA9
 [ПЕ ФЕТТ 69Б](https://calendar.google.com/calendar/embed?src=a14d4a53a6fbd904b20a7e334e1925c3718f9e9cc47fedbafec04e38a30e1f07%40group.calendar.google.com&ctz=Europe%2FSofia)
 
 
-# Упътвания за проектите
+# Помощни материали
 
-## За да изчертаете графики от измерванията, използвайте Excel или Google Sheet. За съжаление, сайтът цитиран в указанията (gnuplot.respawned.com) не е достъпен в момента.
+[Упътвания за проектите](_Instructions)
 
----------------------
-
-Всяка директория съдържа README файл, в който са дадени указания за съответните задачи, напр. "как да се определи динамичното съпротивление от волт-амперната характеристика на диода".
-
-Допълнителни помощни материали може да намерите на следния адрес:
-https://drive.google.com/drive/folders/0BxEAFQHdPMEFUkFvR1BTWEE0SGM?usp=sharing
+[Презентации от лекциите](_Lectures)
 
 
-# Списък на директориите, групирани по теми на проекти
+# Схеми за симулация с LTSpice
 
 ## Проект "Диоди - Динамичен режим и Приложения"
 * [Diodes/Diode-Rectifier](Diodes/Diode-Rectifier) - Схеми на изправители
