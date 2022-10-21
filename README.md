@@ -12,9 +12,9 @@ https://forms.gle/VGVx4JGKVt3wrcGA9
 
 # Помощни материали
 
-[Упътвания за проектите](_Instructions)
+[Упътвания за проектите](Instructions)
 
-[Презентации от лекциите](_Lectures)
+[Презентации от лекциите](Lectures)
 
 
 # Схеми за симулация с LTSpice
