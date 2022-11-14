@@ -1,9 +1,6 @@
 # Полупроводникови Елементи 
 Катедра Електронна Техника / ФЕТТ / ТУ-София
 
-## Регистрация за студентите от ФЕТТ, 2-ри курс
-https://forms.gle/VGVx4JGKVt3wrcGA9
-
 ## График на занятията по ПЕ за ФЕТТ
 [ПЕ ФЕТТ 50(А,Б),51(А,Б),52,68(А,Б),69А](https://calendar.google.com/calendar/embed?src=bfb18eb4184229401c29104d90d61c1652afa3c4203ae983d74987fd10277886%40group.calendar.google.com&ctz=Europe%2FSofia)
 
