@@ -7,6 +7,8 @@
 ## График на занятията по ПЕ
 [ФЕТТ 2023](https://calendar.google.com/calendar/u/0?cid=MTYwZTM5NjZmMTZjNDMwZmIzYTJhM2FlMzliZjI3YmJjZWRjNjRkODMxY2Y5MzhlOWY2OTlhYmQ3ZGI4ZDA1NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
+[ФЕТТ само за група 51А](https://calendar.google.com/calendar/u/0?cid=NzExNjBiMGQyOGMzZTUzYjJiNWZhMmIyODI3MDEzYTY5NjI3YjNjOTY5MWM0NjkyNjc1Y2ViZDBmZDFmODFmNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
 
 # Помощни материали
 
