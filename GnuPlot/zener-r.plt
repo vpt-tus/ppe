@@ -1,9 +1,10 @@
 reset
+set encoding utf8
 set terminal win background rgb 'white'
 set key inside bottom center
-set xlabel 'Uz,V' 
-set ylabel 'Ir,mA'
-set title 'Zener IV'
+set x2label 'U_Z,V' 
+set y2label 'I_R,mA'
+set title 'Волт-Амперни Характеристики на Ценерови Диоди, Обратно Включване'
 set x2range [-15:0]
 set y2range [-10:0]
 set xrange [-15:0]
