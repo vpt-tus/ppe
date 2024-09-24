@@ -1,11 +1,13 @@
 # Полупроводникови Елементи 
 Катедра Електронна Техника / ФЕТТ / ТУ София
 
-## График на занятията по ППЕ
+## Регистрация за проекти по Полупроводникови Елементи 
+[ФЕТТ 2024г](https://forms.gle/UwqwEMxN6QuwoMyv7)
 
-[ФЕТТ 2023](http://htmlpreview.github.io/?https://github.com/vpt-tus/ppe/blob/master/calendar.html)
+## График на занятията по Полупроводникови Елементи, ФЕТТ - 2024г
 
-[ФЕТТ само за група 51А](http://htmlpreview.github.io/?https://github.com/vpt-tus/ppe/blob/master/calendar-51a.html)
+[ФЕТТ 2024](http://htmlpreview.github.io/?https://github.com/vpt-tus/ppe/blob/master/calendar.html)
+
 
 # Помощни материали
 
