@@ -1,17 +1,21 @@
 # Схеми за симулация с LTSpice
 
-## Проект "Диоди - Динамичен режим и Приложения"
-* [Diodes/Diode-Rectifier](Diodes/Diode-Rectifier) - Схеми на изправители
-* [Diodes/Diode-Clipper](Diodes/Diode-Clipper) - Схеми на ограничители
+## Диоди
+* [Diodes/Diode-Rectifier](Diodes/Diode-Rectifier) - Схеми на изправители с диоди
+* [Diodes/Diode-Clipper](Diodes/Diode-Clipper) - Схеми на ограничители с диоди
 * [Diodes/Diode-trr](Diodes/Diode-trr) - Измерване на времето за възстановяване на обратното съпротивление (reverse recovery time)
+* [Diodes/Diode-VI](Diodes/Diode-VI) - Волт-амперни характеристики на диоди
 
-## Проект "Диоди - Статичен Режим"
-* [Diodes/Diode-VI](Diodes/Diode-VI) - Волт-амперни характеристики
+## Ценерови Диоди
+* [ZenerDiodes/Zener-VI](ZenerDiodes/Zener-VI) - Волт-амперни характеристики на ценерови диоди
+* [ZenerDiodes/Zener-Limiter](ZenerDiodes/Zener-Limiter) - Схеми на ограничители с ценерови диоди
 
-## Проект "Ценерови Диоди"
-* [ZenerDiodes/Zener-VI](ZenerDiodes/Zener-VI) - Волт-амперни характеристики
-* [ZenerDiodes/Zener-Limiter](ZenerDiodes/Zener-Limiter) - Схеми на ограничители
+## Светодиоди
+* [LED/LED-VI](LED/LED-VI) - Волт-амперни характеристики на светодиоди
+* [LED/LED-Circuits](LED/LED-Circuits) - Схеми на свързване на светодиоди
 
-## Проект "Светодиоди"
-* [LED/LED-VI](LED/LED-VI) - Волт-амперни характеристики
-* [LED/LED-Circuits](LED/LED-Circuits) - Схеми на свързване
+## Биполярни Транзисотри
+* [BJT](BJT) - Биполярни транзистори: Характеристики, усилватели, ключове
+
+## Полеви Транзистори
+* [MOSFET](MOSFET) - Полеви транзистори: Характеристики, усилватели, ключове

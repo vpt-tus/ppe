@@ -1,20 +1,24 @@
-# Полупроводникови Елементи 
+# Полупроводникови Елементи
 Катедра Електронна Техника / ФЕТТ / ТУ София
 
-## Регистрация за проекти по Полупроводникови Елементи 
-[ФЕТТ 2024г](https://forms.gle/UwqwEMxN6QuwoMyv7)
+## Регистрация за проекти по Полупроводникови Елементи
+[ФЕТТ 2025г](https://forms.gle/CbhQ3FzDoZFezW1h6)
 
 ## График на занятията по Полупроводникови Елементи, ФЕТТ - 2024г
 
-[ФЕТТ 2024](http://htmlpreview.github.io/?https://github.com/vpt-tus/ppe/blob/master/calendar.html)
+[ФЕТТ 2025г](https://calendar.google.com/calendar/u/0?cid=MTYwZTM5NjZmMTZjNDMwZmIzYTJhM2FlMzliZjI3YmJjZWRjNjRkODMxY2Y5MzhlOWY2OTlhYmQ3ZGI4ZDA1NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 
 # Помощни материали
 
-[Упътвания за проектите](Instructions)
-
-[Графично представяне на резултати от измервания с GnuPlot](GnuPlot)
-
-[Презентации от лекциите](Lectures)
+[Презентации за лекции 2025 (WIP)](Lectures)
 
 [Схеми за симулация с LTSpice](Circuits)
+
+[Упътвания за проектите](Instructions)
+
+# Архив
+
+[Презентации за лекции 2024](Lectures-2024)
+
+[Графично представяне на резултати от измервания с GnuPlot](GnuPlot)
