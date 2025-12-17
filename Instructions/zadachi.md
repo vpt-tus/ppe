@@ -1,1 +1,0 @@
-![](img/zadachi1.png)
